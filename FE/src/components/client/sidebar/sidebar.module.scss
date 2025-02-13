@@ -1,0 +1,24 @@
+.sideBar {
+    ::-webkit-scrollbar {
+        width: 3px;
+        /* Độ rộng scrollbar */
+        
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1B1B1D;
+        /* Màu nền */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #cccccc;
+        /* Màu thanh cuộn */
+        border-radius: 4px;
+    }
+
+    /* hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #d7334f;  
+        cursor: grab;
+    }
+}
